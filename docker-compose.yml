@@ -43,7 +43,6 @@ services:
     volumes:
       - /opt/configurator-config:/config
       - /opt/homeassistant:/hass-config
-    user: "${PUID}:${PGID}"
 
   bt-mqtt-gateway:
     container_name: bt-mqtt-gateway
