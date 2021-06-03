@@ -2,6 +2,6 @@
 
 there is four services in docker-compose
 * mosquitto
-* home assistant
+* homeassistant
 * hass-configurator
 * bt-mqtt-gateway
