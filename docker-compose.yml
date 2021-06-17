@@ -46,9 +46,10 @@ services:
 
   bt-mqtt-gateway:
     container_name: bt-mqtt-gateway
-    image: zewelor/bt-mqtt-gateway:latest    
+    image: akashic0616/bt-mqtt-gateway:latest    
     restart: always
-    # Uncomment to enable debug
+    devices:
+      - /dev/input:/dev/input
     #environment:
     #  - DEBUG=true
     volumes:
