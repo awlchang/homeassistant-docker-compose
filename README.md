@@ -1,6 +1,6 @@
 # homeassistant-docker-compose
 
-there are four services in docker-compose
+There are four services in docker-compose.
 * mosquitto
 * homeassistant
 * hass-configurator
