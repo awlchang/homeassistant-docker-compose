@@ -49,6 +49,7 @@ services:
     image: akashic0616/bt-mqtt-gateway:latest    
     restart: always
     devices:
+      # the value of "/dev/input/" corresponds to an actual path on the system of Raspberry Pi 4.
       - /dev/input:/dev/input
     #environment:
     #  - DEBUG=true
